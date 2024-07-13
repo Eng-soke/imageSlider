@@ -39,8 +39,8 @@ function ImageSlider(){
     return <div className="flex justify-center py-10 font-Soke text-secondColor">
        <div className="text-center py-10 sm:py-0">
       <img className="bg-secondColor sm:w-[900px] sm:h-[400px] rounded-2xl w-[330px] h-[250px] object-cover" src={Images[index]}></img>
-        <button onClick={handleNext} className="bg-primary w-[100px] h-[40px] rounded m-2  ">Next</button>
-        <button onClick={handlePrev} className="bg-primary w-[100px] h-[40px] rounded m-2 ">Prev</button>
+        <button onClick={handleNext} className="bg-primary sm:w-[100px] sm:h-[40px] w-[150px] h-[60px] rounded m-2 mt-10 ">Next</button>
+        <button onClick={handlePrev} className="bg-primary sm:w-[100px] sm:h-[40px] w-[150px] h-[60px] rounded m-2 mt-10">Prev</button>
        </div>
     </div>
 }
